@@ -24,6 +24,6 @@ class ControladorAdmin extends Controller
     }
 
     public function facturacion() {
-        return view('Admin.mensajeAdmin')->with(['text' => 'Benvinguts a la pàgina facturación']);
+        return view('Admin.mensajeAdmin')->with(['text' => 'Benvinguts a la pagina facturación']);
     }
 }
